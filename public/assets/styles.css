@@ -1,0 +1,13 @@
+body{ 
+    background-image: url(/assets/logo.png);
+    }
+
+      
+
+
+h1{font-size: 48px; text-transform:uppercase;letter-spacing: 2px;text-align:center; color:#fff }
+h2{font-size: 35px; letter-spacing: 2px;text-align:center; color:#fff }
+
+p{font-size: 20px;text-align:left; color:#fff;text-align: center}
+li{font-size: 20px;text-align:center; color:#fff}
+label{font-size: 20px;color:chocolate;text-align: center}

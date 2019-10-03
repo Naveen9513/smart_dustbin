@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Smart Garbage Collector</title>
+    <link href="/assets/styles.css" rel=stylesheet type="text/css">
+    <script src="/socket.io/socket.io.js"></script>
+
+  </head>
+  <body>
+    <% include partials/nav.ejs %> 
+    <h1>Smart Waste Meter</h1>
+    <h2> What is it?</h2>
+    <p>Smart Garbage Collector is small electronic device which can be attached to regular dustbin to indicate garbage levels</p>
+    <h2>What functions does it offer?</h2>
+    <li> Waste levels of all dustbins</li>
+    <li> Detect unpleasent gases</li>
+    <script>
+        var socket = io(); // craete socket.io in client site. when user connect to home (since this inside home.ejs)
+                           // will emit a signal to the back end
+    </script>
+  </body>
+</html>
